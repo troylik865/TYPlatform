@@ -11,6 +11,9 @@
       location = "group:TYCommonUI/TYCommonUI.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:TYContainer/TYContainer.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:TYRoute/TYRoute.xcodeproj">
    </FileRef>
    <FileRef

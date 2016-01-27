@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0902446CF3A8ABE88DBAE9488B397DEF7F09E43F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0902446CF3A8ABE88DBAE9488B397DEF7F09E43F" : 0,
+    "BF62986E5EB9CC285921537013D3F1A0F519BEFB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1DFA0F25-9857-4E21-97AF-3EBAF9CC10DF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0902446CF3A8ABE88DBAE9488B397DEF7F09E43F" : "TYPlatform\/",
+    "BF62986E5EB9CC285921537013D3F1A0F519BEFB" : "..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TYPlatform",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TYPlatform.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/troylik865\/TYPlatform.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0902446CF3A8ABE88DBAE9488B397DEF7F09E43F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/troylik865\/APPSecurity.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BF62986E5EB9CC285921537013D3F1A0F519BEFB"
+    }
+  ]
+}

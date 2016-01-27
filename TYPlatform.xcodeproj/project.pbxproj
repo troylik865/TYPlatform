@@ -12,6 +12,7 @@
 		DA6E49BA1C5742C700909AB2 /* TYMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6E49B91C5742C700909AB2 /* TYMonitor.framework */; };
 		DA6E49BC1C5742CB00909AB2 /* TYRoute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6E49BB1C5742CB00909AB2 /* TYRoute.framework */; };
 		DA8D9AFD1C576F710077AF0A /* TYHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8D9AFC1C576F710077AF0A /* TYHome.framework */; };
+		DAC1B34B1C5892FC00D56942 /* TYContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC1B34A1C5892FC00D56942 /* TYContainer.framework */; };
 		DAD404F21C57489700EA9555 /* TYExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD404F11C57489700EA9555 /* TYExtension.framework */; };
 		DAE5FAB31C571FF900763A6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE5FAB21C571FF900763A6C /* AppDelegate.swift */; };
 		DAE5FAB51C571FF900763A6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE5FAB41C571FF900763A6C /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 		DA6E49BB1C5742CB00909AB2 /* TYRoute.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TYRoute.framework; path = "TYRoute/build/Debug-iphoneos/TYRoute.framework"; sourceTree = "<group>"; };
 		DA6E49C21C57454700909AB2 /* TYPlatform-Bridging-Header.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TYPlatform-Bridging-Header.pch"; sourceTree = "<group>"; };
 		DA8D9AFC1C576F710077AF0A /* TYHome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TYHome.framework; path = "TYHome/build/Debug-iphoneos/TYHome.framework"; sourceTree = "<group>"; };
+		DAC1B34A1C5892FC00D56942 /* TYContainer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TYContainer.framework; path = "TYContainer/build/Debug-iphoneos/TYContainer.framework"; sourceTree = "<group>"; };
 		DAD404F11C57489700EA9555 /* TYExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TYExtension.framework; path = "TYExtension/build/Debug-iphoneos/TYExtension.framework"; sourceTree = "<group>"; };
 		DAE5FAAF1C571FF900763A6C /* TYPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE5FAB21C571FF900763A6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAC1B34B1C5892FC00D56942 /* TYContainer.framework in Frameworks */,
 				DA8D9AFD1C576F710077AF0A /* TYHome.framework in Frameworks */,
 				DAD404F21C57489700EA9555 /* TYExtension.framework in Frameworks */,
 				DA6E49BC1C5742CB00909AB2 /* TYRoute.framework in Frameworks */,
@@ -92,6 +95,7 @@
 		96A6AD8E33F37CE8F79D3776 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DAC1B34A1C5892FC00D56942 /* TYContainer.framework */,
 				DA8D9AFC1C576F710077AF0A /* TYHome.framework */,
 				DAD404F11C57489700EA9555 /* TYExtension.framework */,
 				DA6E49BB1C5742CB00909AB2 /* TYRoute.framework */,
@@ -438,6 +442,7 @@
 					"$(PROJECT_DIR)/TYRoute/build/Debug-iphoneos",
 					"$(PROJECT_DIR)/TYExtension/build/Debug-iphoneos",
 					"$(PROJECT_DIR)/TYHome/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/TYContainer/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = TYPlatform/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -461,6 +466,7 @@
 					"$(PROJECT_DIR)/TYRoute/build/Debug-iphoneos",
 					"$(PROJECT_DIR)/TYExtension/build/Debug-iphoneos",
 					"$(PROJECT_DIR)/TYHome/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/TYContainer/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = TYPlatform/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
