@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:TYPlatform.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TYHome/TYHome.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TYCommonUI/TYCommonUI.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TYRoute/TYRoute.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TYCoreService/TYCoreService.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TYMonitor/TYMonitor.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TYExtension/TYExtension.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

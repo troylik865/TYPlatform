@@ -1,0 +1,14 @@
+//
+//  TYPlatform-Bridging-Header.pch
+//  TYPlatform
+//
+//  Created by 李彬 on 16/1/26.
+//  Copyright © 2016年 李彬. All rights reserved.
+//
+
+#ifndef TYPlatform_Bridging_Header_pch
+#define TYPlatform_Bridging_Header_pch
+
+#import <TYRoute/TYRoute.h>
+
+#endif /* TYPlatform_Bridging_Header_pch */
