@@ -1,0 +1,10 @@
+framework module TYDatabase {
+  umbrella header "TYDatabase.h"
+
+  export *
+  module * { export * }
+}
+
+module TYDatabase.Swift {
+    header "TYDatabase-Swift.h"
+}

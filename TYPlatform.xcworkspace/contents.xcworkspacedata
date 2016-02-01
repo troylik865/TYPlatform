@@ -23,6 +23,9 @@
       location = "group:TYMonitor/TYMonitor.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:TYDatabase/TYDatabase.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:TYExtension/TYExtension.xcodeproj">
    </FileRef>
    <FileRef

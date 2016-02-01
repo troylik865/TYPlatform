@@ -13,7 +13,6 @@ class ViewController: TYPageController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
 
 }

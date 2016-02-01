@@ -5,6 +5,7 @@ target 'TYPlatform' do
 
 use_frameworks!
 pod "AFNetworking", "~> 3.0.4"
+pod "FMDB", "~> 2.6"
 
 end
 
