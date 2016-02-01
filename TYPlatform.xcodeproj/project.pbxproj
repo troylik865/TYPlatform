@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA6E49B61C5742C000909AB2 /* TYCommonUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6E49B51C5742C000909AB2 /* TYCommonUI.framework */; };
-		DA6E49B81C5742C400909AB2 /* TYCoreService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6E49B71C5742C400909AB2 /* TYCoreService.framework */; };
-		DA6E49BA1C5742C700909AB2 /* TYMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6E49B91C5742C700909AB2 /* TYMonitor.framework */; };
-		DA6E49BC1C5742CB00909AB2 /* TYRoute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6E49BB1C5742CB00909AB2 /* TYRoute.framework */; };
-		DA8D9AFD1C576F710077AF0A /* TYHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8D9AFC1C576F710077AF0A /* TYHome.framework */; };
-		DAC1B34B1C5892FC00D56942 /* TYContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC1B34A1C5892FC00D56942 /* TYContainer.framework */; };
-		DAD404F21C57489700EA9555 /* TYExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD404F11C57489700EA9555 /* TYExtension.framework */; };
+		DA3309CF1C5EFABF00D2B625 /* TYHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3309CE1C5EFABF00D2B625 /* TYHome.framework */; };
+		DA3309D01C5EFABF00D2B625 /* TYHome.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA3309CE1C5EFABF00D2B625 /* TYHome.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DA3309D21C5EFABF00D2B625 /* TYCommonUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3309D11C5EFABF00D2B625 /* TYCommonUI.framework */; };
+		DA3309D31C5EFABF00D2B625 /* TYCommonUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA3309D11C5EFABF00D2B625 /* TYCommonUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DA3309D51C5EFABF00D2B625 /* TYContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3309D41C5EFABF00D2B625 /* TYContainer.framework */; };
+		DA3309D61C5EFABF00D2B625 /* TYContainer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA3309D41C5EFABF00D2B625 /* TYContainer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DA3309D81C5EFABF00D2B625 /* TYRoute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3309D71C5EFABF00D2B625 /* TYRoute.framework */; };
+		DA3309D91C5EFABF00D2B625 /* TYRoute.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA3309D71C5EFABF00D2B625 /* TYRoute.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DA3309DB1C5EFAC000D2B625 /* TYCoreService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3309DA1C5EFAC000D2B625 /* TYCoreService.framework */; };
+		DA3309DC1C5EFAC000D2B625 /* TYCoreService.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA3309DA1C5EFAC000D2B625 /* TYCoreService.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DA3309DE1C5EFAC000D2B625 /* TYMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3309DD1C5EFAC000D2B625 /* TYMonitor.framework */; };
+		DA3309DF1C5EFAC000D2B625 /* TYMonitor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA3309DD1C5EFAC000D2B625 /* TYMonitor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DA3309E11C5EFAC000D2B625 /* TYExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3309E01C5EFAC000D2B625 /* TYExtension.framework */; };
+		DA3309E21C5EFAC000D2B625 /* TYExtension.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA3309E01C5EFAC000D2B625 /* TYExtension.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DAE5FAB31C571FF900763A6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE5FAB21C571FF900763A6C /* AppDelegate.swift */; };
 		DAE5FAB51C571FF900763A6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE5FAB41C571FF900763A6C /* ViewController.swift */; };
 		DAE5FAB81C571FF900763A6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE5FAB61C571FF900763A6C /* Main.storyboard */; };
@@ -33,18 +40,38 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DA3309E31C5EFAC000D2B625 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DA3309DF1C5EFAC000D2B625 /* TYMonitor.framework in Embed Frameworks */,
+				DA3309DC1C5EFAC000D2B625 /* TYCoreService.framework in Embed Frameworks */,
+				DA3309D61C5EFABF00D2B625 /* TYContainer.framework in Embed Frameworks */,
+				DA3309D91C5EFABF00D2B625 /* TYRoute.framework in Embed Frameworks */,
+				DA3309D31C5EFABF00D2B625 /* TYCommonUI.framework in Embed Frameworks */,
+				DA3309E21C5EFAC000D2B625 /* TYExtension.framework in Embed Frameworks */,
+				DA3309D01C5EFABF00D2B625 /* TYHome.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		35D7EF65FAFA0EECB1BA1261 /* Pods-TYPlatform.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYPlatform.release.xcconfig"; path = "Pods/Target Support Files/Pods-TYPlatform/Pods-TYPlatform.release.xcconfig"; sourceTree = "<group>"; };
 		C7DA4B3A88F3D9CA4BE91524 /* Pods_TYPlatform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYPlatform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D121429C1C8729E58D68DE09 /* Pods-TYPlatform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYPlatform.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TYPlatform/Pods-TYPlatform.debug.xcconfig"; sourceTree = "<group>"; };
-		DA6E49B51C5742C000909AB2 /* TYCommonUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TYCommonUI.framework; path = "TYCommonUI/build/Debug-iphoneos/TYCommonUI.framework"; sourceTree = "<group>"; };
-		DA6E49B71C5742C400909AB2 /* TYCoreService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TYCoreService.framework; path = "TYCoreService/build/Debug-iphoneos/TYCoreService.framework"; sourceTree = "<group>"; };
-		DA6E49B91C5742C700909AB2 /* TYMonitor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TYMonitor.framework; path = "TYMonitor/build/Debug-iphoneos/TYMonitor.framework"; sourceTree = "<group>"; };
-		DA6E49BB1C5742CB00909AB2 /* TYRoute.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TYRoute.framework; path = "TYRoute/build/Debug-iphoneos/TYRoute.framework"; sourceTree = "<group>"; };
+		DA3309CE1C5EFABF00D2B625 /* TYHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = TYHome.framework; path = "/Users/libin/Library/Developer/Xcode/DerivedData/TYPlatform-fekyxsdwcyfuvvagjgtgysjpyepc/Build/Products/Debug-iphoneos/TYHome.framework"; sourceTree = "<absolute>"; };
+		DA3309D11C5EFABF00D2B625 /* TYCommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = TYCommonUI.framework; path = "/Users/libin/Library/Developer/Xcode/DerivedData/TYPlatform-fekyxsdwcyfuvvagjgtgysjpyepc/Build/Products/Debug-iphoneos/TYCommonUI.framework"; sourceTree = "<absolute>"; };
+		DA3309D41C5EFABF00D2B625 /* TYContainer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = TYContainer.framework; path = "/Users/libin/Library/Developer/Xcode/DerivedData/TYPlatform-fekyxsdwcyfuvvagjgtgysjpyepc/Build/Products/Debug-iphoneos/TYContainer.framework"; sourceTree = "<absolute>"; };
+		DA3309D71C5EFABF00D2B625 /* TYRoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = TYRoute.framework; path = "/Users/libin/Library/Developer/Xcode/DerivedData/TYPlatform-fekyxsdwcyfuvvagjgtgysjpyepc/Build/Products/Debug-iphoneos/TYRoute.framework"; sourceTree = "<absolute>"; };
+		DA3309DA1C5EFAC000D2B625 /* TYCoreService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = TYCoreService.framework; path = "/Users/libin/Library/Developer/Xcode/DerivedData/TYPlatform-fekyxsdwcyfuvvagjgtgysjpyepc/Build/Products/Debug-iphoneos/TYCoreService.framework"; sourceTree = "<absolute>"; };
+		DA3309DD1C5EFAC000D2B625 /* TYMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = TYMonitor.framework; path = "/Users/libin/Library/Developer/Xcode/DerivedData/TYPlatform-fekyxsdwcyfuvvagjgtgysjpyepc/Build/Products/Debug-iphoneos/TYMonitor.framework"; sourceTree = "<absolute>"; };
+		DA3309E01C5EFAC000D2B625 /* TYExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = TYExtension.framework; path = "/Users/libin/Library/Developer/Xcode/DerivedData/TYPlatform-fekyxsdwcyfuvvagjgtgysjpyepc/Build/Products/Debug-iphoneos/TYExtension.framework"; sourceTree = "<absolute>"; };
 		DA6E49C21C57454700909AB2 /* TYPlatform-Bridging-Header.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TYPlatform-Bridging-Header.pch"; sourceTree = "<group>"; };
-		DA8D9AFC1C576F710077AF0A /* TYHome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TYHome.framework; path = "TYHome/build/Debug-iphoneos/TYHome.framework"; sourceTree = "<group>"; };
-		DAC1B34A1C5892FC00D56942 /* TYContainer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TYContainer.framework; path = "TYContainer/build/Debug-iphoneos/TYContainer.framework"; sourceTree = "<group>"; };
-		DAD404F11C57489700EA9555 /* TYExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TYExtension.framework; path = "TYExtension/build/Debug-iphoneos/TYExtension.framework"; sourceTree = "<group>"; };
 		DAE5FAAF1C571FF900763A6C /* TYPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE5FAB21C571FF900763A6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAE5FAB41C571FF900763A6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,14 +89,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAC1B34B1C5892FC00D56942 /* TYContainer.framework in Frameworks */,
-				DA8D9AFD1C576F710077AF0A /* TYHome.framework in Frameworks */,
-				DAD404F21C57489700EA9555 /* TYExtension.framework in Frameworks */,
-				DA6E49BC1C5742CB00909AB2 /* TYRoute.framework in Frameworks */,
-				DA6E49BA1C5742C700909AB2 /* TYMonitor.framework in Frameworks */,
-				DA6E49B81C5742C400909AB2 /* TYCoreService.framework in Frameworks */,
-				DA6E49B61C5742C000909AB2 /* TYCommonUI.framework in Frameworks */,
+				DA3309DB1C5EFAC000D2B625 /* TYCoreService.framework in Frameworks */,
+				DA3309CF1C5EFABF00D2B625 /* TYHome.framework in Frameworks */,
+				DA3309D51C5EFABF00D2B625 /* TYContainer.framework in Frameworks */,
+				DA3309E11C5EFAC000D2B625 /* TYExtension.framework in Frameworks */,
 				FCBB0F0DABC91964540D7D8F /* Pods_TYPlatform.framework in Frameworks */,
+				DA3309D81C5EFABF00D2B625 /* TYRoute.framework in Frameworks */,
+				DA3309D21C5EFABF00D2B625 /* TYCommonUI.framework in Frameworks */,
+				DA3309DE1C5EFAC000D2B625 /* TYMonitor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,13 +122,13 @@
 		96A6AD8E33F37CE8F79D3776 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DAC1B34A1C5892FC00D56942 /* TYContainer.framework */,
-				DA8D9AFC1C576F710077AF0A /* TYHome.framework */,
-				DAD404F11C57489700EA9555 /* TYExtension.framework */,
-				DA6E49BB1C5742CB00909AB2 /* TYRoute.framework */,
-				DA6E49B91C5742C700909AB2 /* TYMonitor.framework */,
-				DA6E49B71C5742C400909AB2 /* TYCoreService.framework */,
-				DA6E49B51C5742C000909AB2 /* TYCommonUI.framework */,
+				DA3309E01C5EFAC000D2B625 /* TYExtension.framework */,
+				DA3309DD1C5EFAC000D2B625 /* TYMonitor.framework */,
+				DA3309DA1C5EFAC000D2B625 /* TYCoreService.framework */,
+				DA3309D71C5EFABF00D2B625 /* TYRoute.framework */,
+				DA3309D41C5EFABF00D2B625 /* TYContainer.framework */,
+				DA3309D11C5EFABF00D2B625 /* TYCommonUI.framework */,
+				DA3309CE1C5EFABF00D2B625 /* TYHome.framework */,
 				C7DA4B3A88F3D9CA4BE91524 /* Pods_TYPlatform.framework */,
 			);
 			name = Frameworks;
@@ -163,6 +190,7 @@
 				DAE5FAAD1C571FF900763A6C /* Resources */,
 				C5AC28ADEC51E89FE7D463DC /* Copy Pods Resources */,
 				C6AE90B11ADB7D2DAFBAC87D /* Embed Pods Frameworks */,
+				DA3309E31C5EFAC000D2B625 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -203,6 +231,7 @@
 				TargetAttributes = {
 					DAE5FAAE1C571FF900763A6C = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5RTTHM72BK;
 					};
 					DAE5FAC21C571FFA00763A6C = {
 						CreatedOnToolsVersion = 7.2;
@@ -433,6 +462,7 @@
 			baseConfigurationReference = D121429C1C8729E58D68DE09 /* Pods-TYPlatform.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,6 +487,7 @@
 			baseConfigurationReference = 35D7EF65FAFA0EECB1BA1261 /* Pods-TYPlatform.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
